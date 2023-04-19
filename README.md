@@ -2,8 +2,8 @@
 This is a weather app made possible using the OpenWeatherMap API
 
 ## Made Using
-* HTML, CSS, JS
-* Node.js(express, body-parser, ejs)
+* HTML, CSS, JS, EJS
+* Node.js(express, body-parser)
 * OpenWeatherMap API
 
 ## Preview
