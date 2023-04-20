@@ -12,3 +12,5 @@ This is a weather app made possible using the OpenWeatherMap API
 To see the Project visit
 https://weatherapp-l0tr.onrender.com
 
+## Inspired By
+PritamSarbajna/simple-weather-website
