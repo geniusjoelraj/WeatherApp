@@ -4,6 +4,7 @@ const bodyParser = require("body-parser");
 const _ = require('lodash');
 const app = express();
 const port = process.env.PORT || 3000;
+require('dotenv').config()
 
 app.use(bodyParser.urlencoded({extended:true}));
 
@@ -31,7 +32,7 @@ app.get("/", function(req, res) {
 
 
 app.post("/weather", function(req, res) {
-    const apiKey = "d866771451e22170ef171a90f6c0b704";
+    const apiKey = process.env.API_KEY;
     cityName = _.startCase(req.body.cityName);
     const unit = "metric";
     const url = "https://api.openweathermap.org/data/2.5/weather?appid="+apiKey+"&units="+unit+"&q="+cityName;
