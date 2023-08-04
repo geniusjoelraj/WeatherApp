@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("/images/noaa-kcvlb727mn8-unsplash.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 97vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+  background-color: rgba(0, 0, 0, 0.637);
+  display: inline-block;
+  padding: 1rem 6rem 2rem 2rem;
+  border-radius: 20px;
+  color: white;
+}
+
+input{
+  border-radius:50px;
+  border: none;
+  padding: 8px 15px;
+  color: white;
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.123);
+  height: 35px;
+}
+
+input:focus{
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.055);
+}
+
+:placeholder{
+  color: rgb(70, 70, 70);
+}
+
+button{
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  background-image: url("/images/icons8-search-50.png");
+  filter: invert(1);
+  background-size: 17px;
+  background-position: 9px;
+  background-repeat: no-repeat;
+  border: none;
+  position: relative;
+  top: 13px;
+  left: 5px;
+  background-color: rgba(0, 0, 0, 0.123);
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+button:hover{
+  opacity: 0.7;
+}
+
+h2{
+  margin-top: 20px;
+}
+
+h1{
+  margin: 1rem 0;
+}
+
+span{
+  position: relative;
+  left: 10px;
+  bottom: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(236, 236, 236);
+}
+
+p{
+  color: rgb(173, 173, 173);
+}
+
